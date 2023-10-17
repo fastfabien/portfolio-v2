@@ -6,7 +6,7 @@ const projectsData = [
         image: image,
         title: "Wibe Studio",
         description: "Landing Page d'une agence de fashion que j'ai recréer",
-        lien: "/ao",
+        lien: "https://wibe-studio-iota.vercel.app/",
         technos: ["React JS", "Styled Component", "GSAP", "Locomotive scroll", "Framer motion"]
     },
     {
@@ -14,7 +14,7 @@ const projectsData = [
         image: image,
         title: "Immobilo",
         description: "C'est une site immobilier d'investissement participatif basé sur des bricks que les utilisateur achete et perçois des benefices mensuellement selon leur nombre de brick acheter, il ont aussi la possibilité de vendre ou acheter des  brique des autres utilisateur sur un marketplace.",
-        lien: "/ao",
+        lien: "https://immobilo.onrender.com/",
         technos: ["React JS", "Styled Component", "Redux", "Axios", "Node Js", "MongoDB"]
     },
     {
@@ -22,7 +22,7 @@ const projectsData = [
         image: image,
         title: "Portfolio",
         description: "Ceci est mon premier portfolio que j'ai fait l'année dernier.",
-        lien: "/ao",
+        lien: "https://johnfast.vercel.app/",
         technos: ["React JS", "Styled Component", "Locomotive Scroll", "Email JS"]
     },
     {
