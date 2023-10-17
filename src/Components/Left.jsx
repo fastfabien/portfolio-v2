@@ -37,14 +37,14 @@ const Left = () => {
           {gmail}
         </a>
         <a
-          href="https://linkedin.com/fastfabien"
+          href="https://linkedin.com/in/fastfabien"
           target="_blank"
           rel="noreferrer"
         >
           {Linkedin}
         </a>
         <a
-          href="https://gitHub.com/fastfabien"
+          href="https://github.com/fastfabien"
           target="_blank"
           rel="noreferrer"
         >
