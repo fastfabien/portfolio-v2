@@ -293,6 +293,7 @@ const LinkContact = styled.div`
     & svg {
         height: 2.5vw;
         width: 2.5vw;
+        fill: ${p => p.theme.whiteAlways};
 
         &:hover {
             fill: ${p => p.theme.red};

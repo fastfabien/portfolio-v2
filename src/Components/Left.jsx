@@ -8,7 +8,9 @@ import {
   LinkContact,
   TitleBold,
 } from "../Styles/Main";
-import { Linkedin, gitHub } from "../assets/SVG";
+import { Linkedin, gitHub, gmail } from "../assets/SVG";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faEnvelope, faImagePortrait } from "@fortawesome/free-solid-svg-icons";
 
 const Left = () => {
   const leftRef = useRef(null);
@@ -28,14 +30,25 @@ const Left = () => {
       </FooterNav>
       <LinkContact>
         <a
+          href="mailTo:fastfabien56@gmail.com"
+          target="_blank"
+          rel="noreferrer"
+        >
+          {gmail}
+        </a>
+        <a
+          href="https://linkedin.com/fastfabien"
+          target="_blank"
+          rel="noreferrer"
+        >
+          {Linkedin}
+        </a>
+        <a
           href="https://gitHub.com/fastfabien"
           target="_blank"
           rel="noreferrer"
         >
           {gitHub}
-        </a>
-        <a href="https://linkedin.com" target="_blank" rel="noreferrer">
-          {Linkedin}
         </a>
       </LinkContact>
     </LeftContainer>
