@@ -1,6 +1,6 @@
 import { ThemeProvider } from 'styled-components';
 import './App.css';
-import { Wrapper, GlobalStyles, dark } from './Styles';
+import { Wrapper, GlobalStyles, dark, light } from './Styles';
 import { Home } from './Components';
 import { Route, Routes } from 'react-router-dom';
 import { ProjectsViews } from './Pages';
@@ -24,7 +24,7 @@ function App() {
   return (
     <>
       <GlobalStyles />
-      <ThemeProvider theme={dark}>
+      <ThemeProvider theme={light}>
         <Wrapper>
           <Cursor x={position.x} y={position.y} />
           <Routes>

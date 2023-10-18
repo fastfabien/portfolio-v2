@@ -13,7 +13,7 @@ const projectsData = [
         id: 2,
         image: image,
         title: "Immobilo",
-        description: "C'est une site immobilier d'investissement participatif basé sur des bricks que les utilisateur achete et perçois des benefices mensuellement selon leur nombre de brick acheter, il ont aussi la possibilité de vendre ou acheter des  brique des autres utilisateur sur un marketplace.",
+        description: "Il s'agit d'une plateforme immobilière axée sur l'investissement participatif, basée sur des unités appelées 'bricks,' que les utilisateurs achètent pour percevoir des bénéfices mensuels en fonction du nombre de bricks qu'ils possèdent. Les utilisateurs ont également la possibilité d'acheter ou de vendre des bricks d'autres utilisateurs via une plateforme de marché intégrée.",
         lien: "https://immobilo.onrender.com/",
         technos: ["React JS", "Styled Component", "Redux", "Axios", "Node Js", "MongoDB"]
     },
@@ -21,7 +21,7 @@ const projectsData = [
         id: 3,
         image: image,
         title: "Portfolio",
-        description: "Ceci est mon premier portfolio que j'ai fait l'année dernier.",
+        description: "Ceci représente mon premier portfolio, conçu l'année dernière avec l'utilisation de technologies telles que :",
         lien: "https://johnfast.vercel.app/",
         technos: ["React JS", "Styled Component", "Locomotive Scroll", "Email JS"]
     },
@@ -29,7 +29,7 @@ const projectsData = [
         id: 4,
         image: image,
         title: "Natours",
-        description: "C'est une landing page d'un site de nature fait en pure HTML/SCSS sans JavaScript. ",
+        description: "Il s'agit d'une page d'accueil pour un site axé sur la nature, créée exclusivement en HTML et SCSS, sans utilisation de JavaScript. ",
         lien: "https://natours-project-beta.vercel.app/",
         technos: ["HTML", "SCSS"]
     }
