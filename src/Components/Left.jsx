@@ -9,11 +9,22 @@ import {
   TitleBold,
 } from "../Styles/Main";
 import { Linkedin, gitHub, gmail } from "../assets/SVG";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faEnvelope, faImagePortrait } from "@fortawesome/free-solid-svg-icons";
 
 const Left = () => {
   const leftRef = useRef(null);
+
+  const HandleScrollTo = (id) => {
+    const element = document.getElementById(id);
+    let elementIn =
+      element.offsetTop - element.offsetHeight + element.offsetHeight / 4;
+
+    if (element) {
+      window.scrollTo({
+        top: elementIn,
+        behavior: "smooth",
+      });
+    }
+  };
 
   return (
     <LeftContainer ref={leftRef}>
@@ -22,11 +33,13 @@ const Left = () => {
         <TitleBold>dévéloppeur front-end & Intégrateur</TitleBold>
       </Heading>
       <FooterNav>
-        <LienNav href="/" active="true">
+        <LienNav onClick={() => HandleScrollTo("about")} active="true">
           a propos
         </LienNav>
-        <LienNav href="#experiences">expériences</LienNav>
-        <LienNav href="/">projects</LienNav>
+        <LienNav onClick={() => HandleScrollTo("experiences")}>
+          expériences
+        </LienNav>
+        <LienNav onClick={() => HandleScrollTo("projects")}>projects</LienNav>
       </FooterNav>
       <LinkContact>
         <a

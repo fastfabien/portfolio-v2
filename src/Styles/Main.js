@@ -82,8 +82,9 @@ const TextBold = styled.p`
 
 `
 
-const LienNav = styled.a`
+const LienNav = styled.li`
 
+    list-style-type: none;
     font-size: 1.5625vw;
     font-weight: 600;
     text-transform: uppercase;
