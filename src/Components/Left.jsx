@@ -15,7 +15,6 @@ import ScrollTrigger from "gsap/ScrollTrigger";
 const Left = () => {
   gsap.registerPlugin(ScrollTrigger);
   const leftRef = useRef(null);
-  const sections = ["about", "experiences", "projects"];
   const [isActive, setIsActive] = useState("about");
 
   const setActiveOnProgress = (s) => {
@@ -32,8 +31,9 @@ const Left = () => {
   };
 
   useEffect(() => {
+    const sections = ["about", "experiences", "projects"];
     setActiveOnProgress(sections);
-  });
+  }, [isActive]);
 
   const HandleScrollToExperiences = (id) => {
     const about = document.getElementById("about");
