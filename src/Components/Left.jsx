@@ -23,8 +23,9 @@ const Left = () => {
     sections.forEach((section) => {
       ScrollTrigger.create({
         trigger: `#${section}`,
-        start: "top 20%",
-        end: "bottom 40%",
+        start: "5% center",
+        end: () => "+=" + document.getElementById(`#${section}`),
+        scrub: true,
         onEnter: () => {
           setIsActive(() => section);
         },
