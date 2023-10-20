@@ -9,7 +9,7 @@ const projectsData = [
         image: wibeStudio,
         title: "Wibe Studio",
         description: "Landing Page d'une agence de fashion que j'ai recréer",
-        lien: "https://wibe-studio-iota.vercel.app/",
+        lien: "https://wibe-studios.vercel.app/",
         technos: ["React JS", "Styled Component", "GSAP", "Locomotive scroll", "Framer motion"]
     },
     {
