@@ -33,7 +33,7 @@ const projectsData = [
         image: natours,
         title: "Natours",
         description: "Il s'agit d'une page d'accueil pour un site axé sur la nature, créée exclusivement en HTML et SCSS, sans utilisation de JavaScript. ",
-        lien: "https://natours-project-beta.vercel.app/",
+        lien: "https://natoursprojects.vercel.app/",
         technos: ["HTML", "SCSS"]
     }
 ]
