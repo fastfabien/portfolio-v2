@@ -1,7 +1,7 @@
 import React from "react";
 import { ProjectContainer } from "../Styles/Components/Project";
 import { projectsData } from "../Data";
-import { LinkedButton, Project } from "../Components";
+import { Project } from "../Components";
 const Projects = () => {
   return (
     <ProjectContainer id="projects">
