@@ -90,16 +90,17 @@ const LienNav = styled.li`
     text-transform: uppercase;
     line-height: 1.8041666666666665vw;
     opacity: 0.8;
-    transition: color .5s ease;
+    transition: color .2s ease;
     color: ${p => p.active ? p.theme.red : p.theme.white};
     position: relative;
+    cursor: pointer;
 
 
 
-    &:hover {
+    &:hover, &.active {
         color: ${p => p.theme.red};
         opacity: 1;
-        transition: color .5s ease;
+        transition: color .2s ease;
     }
 
     @media (max-width: 64em) {

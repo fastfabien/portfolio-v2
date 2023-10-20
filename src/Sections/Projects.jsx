@@ -15,7 +15,7 @@ const Projects = () => {
           link={data.lien}
         />
       ))}
-      <LinkedButton link="/yes">Voir les archives</LinkedButton>
+      {/* <LinkedButton link="/yes">Voir les archives</LinkedButton> */}
     </ProjectContainer>
   );
 };
