@@ -61,7 +61,7 @@ const Left = () => {
     const element = document.getElementById(id);
     if (element) {
       let elementIn =
-        element.offsetTop - element.offsetHeight + element.offsetHeight / 2.5;
+        element.offsetTop - element.offsetHeight + element.offsetHeight / 3;
 
       window.scrollTo({
         top: elementIn,
