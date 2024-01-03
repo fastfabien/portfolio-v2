@@ -204,7 +204,7 @@ const Technos = styled.div`
 
 const Techno = styled.span`
 
-    padding: .8vw;
+    padding: .6vw;
     background-color: rgba(${p => p.theme.redRgba}, 0.8);
     color: ${p => p.theme.whiteAlways};
     display: inline;
