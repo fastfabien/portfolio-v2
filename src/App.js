@@ -1,14 +1,20 @@
 import { ThemeProvider } from 'styled-components';
 import './App.css';
-import { Wrapper, GlobalStyles, dark } from './Styles';
+import { Wrapper, GlobalStyles, dark, light } from './Styles';
 import { Home } from './Components';
 import { Route, Routes } from 'react-router-dom';
 import { ProjectsViews } from './Pages';
 import { useEffect, useState } from 'react';
 import Cursor from './Components/Cursor';
+import Mode from './Components/mode';
 
 function App() {
   const [position, setPosition] = useState({ x: 0, y: 0 });
+  const [isLight, setIsLight] = useState(false);
+
+  const goLight = () => {
+    setIsLight(!isLight);
+  }
 
   useEffect(() => {
     const handleMouseMove = (e) => {
@@ -24,9 +30,10 @@ function App() {
   return (
     <>
       <GlobalStyles />
-      <ThemeProvider theme={dark}>
+      <ThemeProvider theme={isLight ? light : dark}>
         <Wrapper>
           <Cursor x={position.x} y={position.y} />
+          <Mode goLight={goLight} isLight={isLight} />
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/project/:id" element={<ProjectsViews />} />

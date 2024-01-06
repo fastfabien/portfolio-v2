@@ -38,7 +38,7 @@ const light = {
 
     //Radial Color(Cursor)
     cursorColorInner: "231,47,47,1",
-    cursorColorInnerOpacity: '0%',
+    cursorColorInnerOpacity: '10%',
     cursorColorOutter: "34,33,33,0",
     cursorColorOutterOpacity: '50%',
 

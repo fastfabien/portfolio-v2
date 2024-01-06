@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <FooterContainer>
       <P>
-        Coder dans{" "}
+        Coder dans avec amour{" "}
         <a
           href="https://code.visualstudio.com/"
           target="_blank"

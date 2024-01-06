@@ -7,7 +7,7 @@ const GlobalStyles = createGlobalStyle`
         margin: 0;
         padding: 0;
         box-sizing: border-box;
-        transition: color .1s ease, background-color .1s ease;
+        transition: color .15s ease, background-color .15s ease;
     }
     body {
         font-family: 'Montserrat', sans-serif;

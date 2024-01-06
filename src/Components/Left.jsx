@@ -79,7 +79,7 @@ const Left = () => {
     <LeftContainer ref={leftRef}>
       <Heading>
         <H1>Fast Fabien</H1>
-        <TitleBold>dévéloppeur front-end & Intégrateur</TitleBold>
+        <TitleBold>développeur front-end & Intégrateur</TitleBold>
       </Heading>
       <FooterNav>
         <LienNav
