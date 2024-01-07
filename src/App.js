@@ -6,7 +6,6 @@ import { Route, Routes } from 'react-router-dom';
 import { ProjectsViews } from './Pages';
 import { useEffect, useState } from 'react';
 import Cursor from './Components/Cursor';
-import Mode from './Components/mode';
 
 function App() {
   const [position, setPosition] = useState({ x: 0, y: 0 });
@@ -33,7 +32,6 @@ function App() {
       <ThemeProvider theme={isLight ? light : dark}>
         <Wrapper>
           <Cursor x={position.x} y={position.y} />
-          <Mode goLight={goLight} isLight={isLight} />
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/project/:id" element={<ProjectsViews />} />
